@@ -1,0 +1,100 @@
+.back{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calci{
+    color:#0e0d0d;
+    text-align:center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: xx-large;
+    font
+    
+}
+
+.cal {
+    background-color: #eec614;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -4px -4px 10px rgba(56, 55, 55, 0.1), 4px 4px 15px rgba(54, 53, 53, 0.3); 
+    border: 1px solid #2e3742; 
+    transition: all 0.3s ease; 
+}
+
+.cal:hover {
+    box-shadow: -6px -6px 12px rgba(12, 220, 235, 0.2), 6px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.cal form input {
+    border: 1px solid #a09d9d; 
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 10px rgba(19, 18, 18, 0.6), 5px 5px 15px rgba(243, 66, 12, 0.2); 
+    background: linear-gradient(145deg, #f0f0f0, orangered); 
+    font-size: 20px;
+    color: #0e0d0d; 
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease; 
+}
+
+.cal form input:active {
+    box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.6), inset 4px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.cal form input:hover {
+    background: #13c0f5; 
+    color: #000;
+    box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.6), inset 4px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+form input.equal{
+    width: 145px;
+    
+}
+
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    padding: 2px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2), 
+                inset 0 -1px 0 rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    color: #2e3742;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 
+                inset 0 -1px 2px rgba(0, 0, 0, 0.1); 
+    outline: none;
+    backdrop-filter: blur(10px); 
+}
+
+form input.op{
+    color:rgb(8, 8, 8);
+}
+
+
+    
